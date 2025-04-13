@@ -6,7 +6,7 @@ import google.generativeai as genai  # Configure the Gemini API
 from sklearn.feature_extraction.text import CountVectorizer
 
 # Configure the Gemini API
-api_key = "AIzaSyCCT9S5gusbdERPIGLcD0PyEG_FzDA-7KY"
+api_key = "Add you API Key"
 genai.configure(api_key=api_key)
 
 app = Flask(__name__)
